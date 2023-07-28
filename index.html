@@ -2,8 +2,25 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="janken.js" defer></script>
+
     </head>
     <body>
-        <script src="janken.js"></script>
+        <div class="container">
+            <h1>JANKEN!</h1>
+            <h2><span id="player">0</span> to <span id="computer">0</span></h2>
+            <div>
+                <p id="finalScore"></p>
+            </div>
+            <div class="buttons">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+            <div>
+                <ul id="roundScore"></ul>
+            </div>
+        </div>
     </body>
 </html>
